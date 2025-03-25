@@ -57,3 +57,21 @@ console.log(isAllowGoToParty);
 const title = "";
 const isTitleEmpty = !title;
 console.log(isTitleEmpty);
+// условия
+const gg = 24;
+if (gg > 23) {
+    console.log("ты совершеннолетний")
+} else {
+    console.log("ты не совершеннолетний")
+}
+function sayHello() {
+    console.log("hello");
+}
+sayHello();
+
+function sumy(a ,b) {
+    return a + b;
+}
+console.log(sumy(3, 4));
+
+
