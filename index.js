@@ -1,9 +1,9 @@
-let a = 5;
-let b = 10;
-function multiply(a, b) {
-    return a * b;
-}
-console.log(multiply(a ,b));
+// let a = 5;
+// let b = 10;
+// function multiply(a, b) {
+//     return a * b;
+// }
+// console.log(multiply(a ,b));
 
 
 const day = 25;
@@ -64,3 +64,25 @@ function getMonthByNumber(month1) {
     }
 }
 console.log(getMonthByNumber(month1));
+
+
+function printNumbers() {
+    let i = -10;
+        for (let i = -10; i < 11; i++) {
+        console.log(i)
+        
+    }
+   
+}
+printNumbers();
+
+function calculateNumbersSum(muss){
+    let sum = 0;
+
+    muss.forEach(function(element)  {
+        sum = sum + element;
+    });
+    return sum;
+};
+console.log(calculateNumbersSum([10 ,29]))
+
