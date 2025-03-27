@@ -112,3 +112,4 @@ function findOldest(people) {
     return people[indexOldest].name;
 }
 console.log(findOldest(people));
+let fef = 0;
