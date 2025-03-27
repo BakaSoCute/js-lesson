@@ -114,23 +114,23 @@ const person = {
 };
 person.sayHi();
 
-const people = [
-    {
-        name: 'sergei',
-        city: "dybai",
-        age: 28,
-    },
-    {
-        name: 'pavel',
-        city: "dybai",
-        age: 28,
-    },
-    {
-        name: 'sasha',
-        city: "dybai",
-        age: 28,
-    },
-]
+// const people = [
+//     {
+//         name: 'sergei',
+//         city: "dybai",
+//         age: 28,
+//     },
+//     {
+//         name: 'pavel',
+//         city: "dybai",
+//         age: 28,
+//     },
+//     {
+//         name: 'sasha',
+//         city: "dybai",
+//         age: 28,
+//     },
+// ]
 
 people.forEach(function(person){
     console.log(person.name);

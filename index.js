@@ -86,3 +86,29 @@ function calculateNumbersSum(muss){
 };
 console.log(calculateNumbersSum([10 ,29]))
 
+const people = [
+    {
+        name: 'sergei',
+        city: "dybai",
+        age: 25,
+    },
+    {
+        name: 'pavel',
+        city: "dybai",
+        age: 30,
+    },
+    {
+        name: 'sasha',
+        city: "dybai",
+        age: 29,
+    },
+]
+function findOldest(people) {
+    let indexOldest = 0;
+    people.forEach(function(person, index){
+        if (person.age > people[indexOldest].age)
+            indexOldest = index;
+    });
+    return people[indexOldest].name;
+}
+console.log(findOldest(people));
